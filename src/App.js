@@ -9,7 +9,8 @@ import Login from './components/Login';
 import NameList from './components/NameList';
 import StyleSheet from './components/stylesheet';
 import './components/appStyles.css';
-import Forms from './components/forms'
+import Forms from './components/forms';
+import LifeCycleA from './components/lifeCycleA';
 
 class App extends Component {
   render() {
@@ -33,7 +34,8 @@ class App extends Component {
         {/* <Login /> */}
         {/* <NameList /> */}
         {/* <StyleSheet /> */}
-        <Forms/>
+        {/* <Forms/> */}
+        <LifeCycleA />
       </div>
     );
   }
