@@ -11,6 +11,12 @@ import StyleSheet from './components/stylesheet';
 import './components/appStyles.css';
 import Forms from './components/forms';
 import LifeCycleA from './components/lifeCycleA';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/clickCounter';
+import HoverCounter from './components/hoverCounter';
+import ShowList from './components/showLists';
+import PostForm from './components/postForm';
 
 class App extends Component {
   render() {
@@ -35,7 +41,20 @@ class App extends Component {
         {/* <NameList /> */}
         {/* <StyleSheet /> */}
         {/* <Forms/> */}
-        <LifeCycleA />
+        {/* <LifeCycleA count="1" /> */}
+        {/* <ErrorBoundary>
+          <Hero name="Rocky" />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero name="Jocky" />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero name="croocky" />
+        </ErrorBoundary> */}
+        {/* <ClickCounter /> */}
+        {/* <HoverCounter /> */}
+        {/* <ShowList /> */}
+        <PostForm />
       </div>
     );
   }
